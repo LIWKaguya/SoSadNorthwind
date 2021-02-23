@@ -8,7 +8,8 @@ public class Products {
    @Id
    int id; 
    String supplier_ids, product_code, product_name, description,quantity_per_unit,category,attachments;
-   int standard_cost, list_price, reorder_level, target_level, discontinued, minimum_reorder_quantity; 
+   int standard_cost, list_price, reorder_level, target_level, discontinued;
+   Integer minimum_reorder_quantity; 
 
     public int getId() {
         return this.id;

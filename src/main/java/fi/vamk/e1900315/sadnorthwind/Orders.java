@@ -13,7 +13,7 @@ public class Orders {
    int shipping_fee, taxes;
    String payment_type, paid_date, notes;
    double tax_rate;
-   int tax_status_id, status_id; 
+   Integer tax_status_id, status_id; 
 
     public int getId() {
         return this.id;

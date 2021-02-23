@@ -7,7 +7,9 @@ import javax.persistence.Id;
 public class Inventory_transactions {
    @Id
    int id;
-   int transaction_type, product_id, quantity, purchase_order_id, customer_order_id;
+   int transaction_type, product_id, quantity;
+   Integer purchase_order_id;
+   Integer customer_order_id;
    String transaction_created_date, transaction_modified_date, comments;
     public int getId() {
         return this.id;
